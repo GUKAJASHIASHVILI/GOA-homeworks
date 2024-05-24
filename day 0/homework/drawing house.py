@@ -2,7 +2,6 @@ from turtle import*
 
 speed(5)
 width(5)
-shape("circle")
 
 #drawing square
 
