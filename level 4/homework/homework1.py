@@ -767,13 +767,19 @@ begin_fill()
 circle(10)
 end_fill()
 
+penup()
+color("red")
+goto(340,-110)
+pendown()
+begin_fill()
+circle(10)
+end_fill()
+
 #end of drawing apples
 
 
 penup()
 goto(100,-300)
-
-
 
 color("black")
 
