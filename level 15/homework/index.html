@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color:black;}
+        #div ul
+        {
+            list-style-type:none ;
+            background-color: hsl(0, 0%, 25%);
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        #div a
+        {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        #div a:hover
+        {
+            background-color:  hsl(0, 0%, 10%);;
+        }
+        #div li
+        {
+            float:left
+        }
+        #div2{
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        #img
+        {
+            float: right; width: 30%;
+            border-radius: 16px;
+        }
+
+        #div3
+        {
+            color: darkgreen;
+            position: absolute;
+            width: 70%;
+            left: 15%;
+            top: 120vh;
+        }
+        #div4{
+            position: absolute;
+            text-align: left;
+            right: 45%;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+        #div4 input{
+            background-color: #0F0F0F;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">Home</h1>
+    <div id="div">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#Contact">Contant</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="div2">
+        <p>მე ვარ გუკა ჯაშიაშვილი</p>
+        <img style="border-radius: 16px;" src="./Images/417452017_7610663119002029_1609615653256828021_n.jpg" alt="photo of guka" width="30%">
+    </div>
+
+    <h2 style="color: white; height: 100vh;">About me</h2>
+
+    <div id="div3">
+        <img id="img" src="./Images/448245644_7610663585668649_8004957047224929368_n.jpg" alt="photo of guka" width="20%">
+        <p style="color: white;">მე ვარ გუკა ჯაშიაშვილი. ვცხოვრობ ზესტაფონშ ვარ 13 წლის. მე გატაცებული ვარ <br>
+            პროგრამირებით. პატარაობიდანვე ჩემი სურვილი იყო რომ გამოვსულიყავი <br>
+            პროგრამისტი და შემექმნა საკუთარი თამაშიდა Goaს დახმარებით ამ სურვილს <br>ავისრულებ. <br>
+        </p>
+    </div>
+
+    <h2 style="color: white; height: 20vh;">Contact</h2>
+
+    <div id="div4">
+        <form style="height: 80vh;">
+            <label for="Name">Name</label><br>
+            <input type="text" name="Name" id="Name"><br><br>
+            <label for="Last Name">Last Name</label><br>
+            <input type="text" name="Last Name" id="Last Name"><br><br>
+            <label for="Message">Message</label><br>
+            <input type="text" name="Message" id="Message"><br><br>
+            <input type="submit" name="submit" id="sumbit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
