@@ -1,0 +1,209 @@
+body{
+    background: rgb(55,224,32);
+    background: linear-gradient(0deg, rgba(55,224,32,1) 0%, rgba(1,65,28,1) 60%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
+    height: 500vh;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.fa-facebook{
+    font-size: 200%;
+    position: absolute;
+    left: -40px;
+    top: 50px;
+}
+.fa-facebook-f{
+    font-size: 200%;
+    position: absolute;
+    left: -35px;
+    top: 105px;
+}
+.fa-envelope{
+    font-size: 200%;
+    position: absolute;
+    left: -42px;
+    top: 215px;
+}
+.fa-youtube{
+    font-size: 200%;
+    position: absolute;
+    left: -44px;
+    top: 160px;
+}
+.fa-phone{
+    font-size: 200%;
+    position: absolute;
+    left: -40px;
+    top: 270px;
+}
+#navbar{
+    background:#020902;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#navdiv{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+button{
+    background-color: darkgreen;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#h1{
+    position: absolute;
+    left: 65vh;
+    top: 40vh;
+    color: white;
+    font-size: 500%;
+    text-align: center;
+}
+#h1 b{
+    color: #70C079;
+}
+#button{
+    position: absolute;
+    left: 87vh;
+    top: 60vh;
+    color: white;
+    font-size: 200%;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px
+}
+#img1{
+    height: 120vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+<!--უამრავი შეხვედრა-->
+
+#div2{
+    position: absolute;
+    top: 15%;
+    border-radius: 20px;
+    height: 100vh;
+}
+#img2
+{
+    position: absolute;
+    left: 100vh;
+    float: right;
+    border-radius: 16px;
+}
+#div1
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 140vh;
+    height: 30vh;
+}
+
+
+<!--მენტორების დახმარება-->
+
+#div4{
+    position: absolute;
+    top: 15%;
+    left: 100vh;
+    float: right;
+    border-radius: 16px;
+}
+#img3{
+    position: absolute;
+    left: 100vh;
+    float: right;
+    border-radius: 16px;
+}
+
+#div3{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 190vh;
+    height: 30vh;
+}
+
+
+<!--About GOA-->
+
+#div6{
+    position: absolute;
+    top: 15%;
+    border-radius: 20px;
+    height: 100vh;
+}
+#img4{
+    position: absolute;
+    left: 100vh;
+    float: right;
+    border-radius: 16px;
+}
+#div5{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 240vh;
+    height: 30vh;
+}
+
+
+<!--GOAში რეგისტრაცია-->
+
+#img5{
+    position: absolute;
+    left: 100vh;
+    float: right;
+    border-radius: 16px;
+}
+#div8{
+    color: black;
+}
+#div7{
+    position: absolute;
+    width: 70%;
+    right: 0%;
+    top: 300vh;
+    height: 30vh;
+}
+
+<!--Contact-->
+
+#div10{
+    position: absolute;
+    top: 15%;
+    border-radius: 20px;
+    height: 100vh;
+}
+#div9{
+    position: absolute;
+    width: 70%;
+    right: 15%;
+    top: 360vh;
+    height: 30vh;
+}
