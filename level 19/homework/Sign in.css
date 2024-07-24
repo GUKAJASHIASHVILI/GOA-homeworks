@@ -1,0 +1,41 @@
+div h1{
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkgreen;
+    }
+    #div{
+    position: absolute;
+    left: 85vh;
+    top: 12px;
+    text-align: center;
+    padding: 20px;
+    }
+    p{
+    font-family: "Roboto", sans-serif;
+    }
+    #div2{
+    position: absolute;
+    left: 85vh;
+    top: 45vh;
+    text-align: center;
+    width: 295px;
+    padding: 10px;
+    }
+    #t5{
+        width: 220px;
+        padding: 7px; 
+        margin: 2px; 
+        border-width:1 px;
+        background-color:#00FF40;
+        border: solid;
+        border-width:0px;
+        border-radius: 8px;
+        width: 270px;
+        color:white;
+        font-weight:bold;
+    }
+    #t5:hover{
+        background-color: darkgreen;
+    }
