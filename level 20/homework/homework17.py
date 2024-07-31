@@ -5,6 +5,6 @@ def uppercase(string):
             new_string += string[i].upper()
         else:
             new_string += string[i]
-    print(new_string)
+    return new_string
 
-uppercase("hello")
+print(uppercase("hello"))
